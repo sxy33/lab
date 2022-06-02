@@ -38,9 +38,5 @@ public class EnemyController : MonoBehaviour
         MoveGomba();
         }  
     }
-    void OnTriggerEnter2D(Collider2D other) {
-        if (other.gameObject.CompareTag("Enemy")){
-            Debug.Log("Collided with Gomba!");
-        }
-    }
+   
 }

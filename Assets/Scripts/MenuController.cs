@@ -8,7 +8,7 @@ public class MenuController : MonoBehaviour
     void Awake() {
         Time.timeScale = 0.0f;
     }
-    public void StartButtonClciked(){
+    /* public void StartButtonClciked(){
         foreach (Transform eachChild in transform){
             if (eachChild.name != "ScoreText"){             //only score remain
                 Debug.Log("Child found. Name:" + eachChild.name);
@@ -17,7 +17,7 @@ public class MenuController : MonoBehaviour
                 Time.timeScale = 1.0f; //when press, set time to 1
             }
         }
-    }
+    } */
 // Start is called before the first frame update
     void Start()
     {
